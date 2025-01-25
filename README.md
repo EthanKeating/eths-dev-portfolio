@@ -1,4 +1,4 @@
-# Ethan's Portfolio - [eths.dev](http://eths.dev/)
+# Ethan Keating Portfolio - [eths.dev](http://eths.dev/)
 
 Welcome to [eths.dev](http://eths.dev/) my personal portfolio!
 
