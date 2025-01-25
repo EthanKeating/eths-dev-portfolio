@@ -1,0 +1,91 @@
+*, html {
+  scroll-behavior: smooth !important;
+}
+.heroSection {
+  display: block;
+  flex-direction: column;
+  background-color: #202225;
+  padding: 60px 20px;
+  color: #e4e6eb;
+  text-align: center;
+}
+
+.profileContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 100px 0px;
+}
+
+.profileWrapper {
+  position: relative;
+}
+
+.greenSymbolLeft,
+.greenSymbolRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #00b894;
+  font-size: 25rem;
+  font-weight: 100;
+}
+
+.greenSymbolLeft {
+  top: 135px;
+  left: -110px;
+}
+
+.greenSymbolRight {
+  top: 135px;
+  right: -110px;
+}
+
+.profileImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.heroText {
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.socialIcons a {
+  color: #e4e6eb;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.socialIcons a:hover {
+  color: #00b894;
+  transform: scale(1.3);
+}
+
+.introSection {
+  font-weight: 500;
+  font-size: large;
+  color: #cdcdcd;
+}
+
+.scrollButtonContainer {
+  animation: smoothBounce 2s ease-in-out infinite;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
