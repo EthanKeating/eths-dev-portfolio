@@ -12,7 +12,8 @@ const Hero: React.FC = () => {
   const handleScroll = () => {
     const projectsSection = document.getElementById("projects");
     if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" });
+      projectsSection.scrollIntoView();
+      console.log("Testing");
     }
   };
 
@@ -67,7 +68,6 @@ const Hero: React.FC = () => {
         <div className="scrollButtonContainer">
           <button
             onClick={handleScroll}
-            className="scrollButton"
             style={{ fontSize: "36px", background: "none", border: "none" }}
           >
             <FaArrowDown />

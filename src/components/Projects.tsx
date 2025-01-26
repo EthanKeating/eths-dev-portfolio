@@ -35,8 +35,8 @@ const Projects: React.FC = () => {
   return (
     <section className="py-5 bg-dark fade-in">
       <Container ref={ref}>
-        {/* Typing animation header with background color */}
-        {inView && (
+        <div id="projects">
+          {/* Typing animation header with background color */}
           <div>
             <div
               style={{
@@ -47,24 +47,26 @@ const Projects: React.FC = () => {
                 textAlign: "center",
               }}
             >
-              <h2 className="text-light">
-                <TypeAnimation
-                  sequence={[
-                    "my projects.",
-                    1000,
-                    "exploring new technologies.",
-                    1000,
-                    "crafting beautiful designs.",
-                    1000,
-                    "my projects.",
-                    1000,
-                  ]}
-                  wrapper="span"
-                  cursor={true}
-                  repeat={0}
-                  style={{ fontSize: "3rem", fontWeight: "bold" }}
-                />
-              </h2>
+              {inView && (
+                <h2 className="text-light">
+                  <TypeAnimation
+                    sequence={[
+                      "my projects.",
+                      1000,
+                      "exploring new technologies.",
+                      1000,
+                      "crafting beautiful designs.",
+                      1000,
+                      "my projects.",
+                      1000,
+                    ]}
+                    wrapper="span"
+                    cursor={true}
+                    repeat={0}
+                    style={{ fontSize: "3rem", fontWeight: "bold" }}
+                  />
+                </h2>
+              )}
             </div>
 
             <Row className="d-flex justify-content-center">
@@ -88,7 +90,7 @@ const Projects: React.FC = () => {
               ))}
             </Row>
           </div>
-        )}
+        </div>
       </Container>
     </section>
   );
