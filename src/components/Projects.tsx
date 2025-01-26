@@ -30,6 +30,14 @@ const Projects: React.FC = () => {
       ],
       githubUrl: "https://github.com/EthanKeating/eths-dev-portfolio",
     },
+    {
+      title: "Lots more to come",
+      description:
+        "I have tons more projects I would like to showcase here in the near future. For now you can check out my github repositories!",
+      imageUrl: "/more.png",
+      technologies: [{ name: "Java" }],
+      githubUrl: "https://github.com/EthanKeating/",
+    },
   ];
 
   return (
