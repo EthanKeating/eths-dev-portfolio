@@ -31,6 +31,14 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/EthanKeating/eths-dev-portfolio",
     },
     {
+      title: "Dark Shells (Video Game)",
+      description:
+        "Dark Shells is a side-scrolling game developed by Martin Van Raay, Jon McDowell, Greg Grondin, and Ethan Keating in C# MonoGame.",
+      imageUrl: "/darkshells/darkshells.png",
+      technologies: [{ name: "C#" }, { name: "MonoGame" }],
+      githubUrl: "https://github.com/EthanKeating/Group3FinalProject",
+    },
+    {
       title: "Lots more to come",
       description:
         "I have tons more projects I would like to showcase here in the near future. For now you can check out my github repositories!",
