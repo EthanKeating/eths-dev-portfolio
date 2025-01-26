@@ -39,6 +39,14 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/EthanKeating/Group3FinalProject",
     },
     {
+      title: "legacy-tab (Minecraft API)",
+      description:
+        "LegacyTab is a powerful 1.8 Tablist API designed to manipulate the client by sending fake player packets to display information",
+      imageUrl: "/legacytab/legacytab.gif",
+      technologies: [{ name: "Java" }],
+      githubUrl: "https://github.com/EthanKeating/legacy-tab",
+    },
+    {
       title: "Lots more to come",
       description:
         "I have tons more projects I would like to showcase here in the near future. For now you can check out my github repositories!",
