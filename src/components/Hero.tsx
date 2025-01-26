@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
             <FaGithub size={60} />
           </a>
           <a
-            href="https://discord.com/users/your-discord-username"
+            href="https://discord.gg/hpH6VkK7Qs"
             target="_blank"
             aria-label="Discord"
           >
