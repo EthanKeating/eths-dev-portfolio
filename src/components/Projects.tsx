@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
         { name: "HTML" },
         { name: "CSS" },
       ],
-      githubUrl: "https://mcgamer.club/",
+      githubUrl: "https://github.com/EthanKeating/eths-dev-portfolio",
     },
   ];
 

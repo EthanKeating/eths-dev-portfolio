@@ -32,7 +32,9 @@ const Hero: React.FC = () => {
         <h1 className="heroText">Hi, I'm Ethan!</h1>
         <h3>Software Developer - Computer Programming Student</h3>
         <p className="intro">
-          Experienced in Java, C#, ASP.NET, C++, MySQL, Git, MongoDB.
+          Proficient in Java, MySQL & Git
+          <br /> Experienced in C#, ASP.NET, C++, React, JavaScript, TypeScript,
+          MongoDB
           <br /> Familiar with tools such as Docker, Redis, and Jenkins.
         </p>
         <div className="socialIcons fadein">
