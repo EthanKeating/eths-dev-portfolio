@@ -47,6 +47,14 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/EthanKeating/legacy-tab",
     },
     {
+      title: "legacy-bossbar (Minecraft API)",
+      description:
+        "LegacyBossbar is a API for Legacy Minecraft servers to properly implement boss bars by sending fake entity packets. (1.8 & 1.7)",
+      imageUrl: "/legacybossbar/legacybossbar.gif",
+      technologies: [{ name: "Java" }],
+      githubUrl: "https://github.com/EthanKeating/legacy-bossbar",
+    },
+    {
       title: "Lots more to come",
       description:
         "I have tons more projects I would like to showcase here in the near future. For now you can check out my github repositories!",
