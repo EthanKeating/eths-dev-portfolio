@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         <div className="profileWrapper">
           <span className="greenSymbolLeft">{`{`}</span>
           <img
-            src="https://avatars.githubusercontent.com/u/69118918?v=4"
+            src="/pfp.png"
             alt="Profile"
             className="profileImage"
           />
