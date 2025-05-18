@@ -9,6 +9,39 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
+      title: "SGHQ Network",
+      description: "Developed and maintain a Minecraft server & website with 60,000+ lines of code. Integrated player data to a React-based web panel for player statistics, moderation, & server management.",
+      imageUrl: "/sghq/sghq.png",
+      technologies: [
+        { name: "Java" },
+        { name: "MySQL" },
+        { name: "Redis" },
+        { name: "React" },
+      ],
+      githubUrl: "https://sghq.network/",
+    },
+    {
+      title: "Music Discovery App",
+      description: "Built for a Mobile Application Development course to help users explore and discover music & artists using the MusicBrainz API.",
+      imageUrl: "/musicapp/music.png",
+      technologies: [
+        { name: "Dart" },
+        { name: "Flutter" },
+      ],
+      githubUrl: "https://github.com/ivannimets/MusicApp",
+    },
+    {
+      title: "E-Waste Heroes",
+      description: "Developed in 36 hours to promote responsible electronics recycling. Utilized Open AI's API to estimate e-waste value & Google's Map API to locate nearby recycling centers.",
+      imageUrl: "/ewaste/ewaste.png",
+      technologies: [
+        { name: "Dart" },
+        { name: "Flutter" },
+        { name: "Supabase" },
+      ],
+      githubUrl: "https://github.com/EthanKeating/e-waste-hero",
+    },
+    {
       title: "Xime Suite (Private)",
       description:
         "All-in-One Minecraft Server Management Suite. Everything from gameplay to moderation. Commissioned for the 'MCGamer Network'",

@@ -214,41 +214,62 @@ body {
 }
 
 .badge-Java {
-  background-color: #FFA518 !important;
+  background-color: #f89820 !important; /* Oracle Java official color */
 }
 
 .badge-MySQL {
-  background-color: #00758F !important;
+  background-color: #00758F !important; /* MySQL official color */
 }
 
 .badge-Redis {
-  background-color: #ed4a3f !important;
+  background-color: #DC382D !important; /* Redis official color */
 }
 
 .badge-React {
-  background-color: #58C4DC !important;
+  background-color: #61DAFB !important; /* React official color */
+  color: #000000 !important; /* Black text for better contrast */
 }
 
 .badge-JavaScript {
-  background-color: #d0ab4c !important;
+  background-color: #F7DF1E !important; /* JavaScript official color */
+  color: #000000 !important; /* Black text for better contrast */
 }
 
 .badge-NodeJS {
-  background-color: #8BC500 !important;
+  background-color: #339933 !important; /* Node.js official color */
 }
 
 .badge-TypeScript {
-  background-color: #3178C6 !important;
+  background-color: #3178C6 !important; /* TypeScript official color */
 }
 
 .badge-CSS {
-  background-color: #663399 !important;
+  background-color: #1572B6 !important; /* CSS3 official color */
 }
 
 .badge-HTML {
-  background-color: #E44D26 !important;
+  background-color: #E34F26 !important; /* HTML5 official color */
 }
 
+.badge-Dart {
+  background-color: #0175C2 !important; /* Dart official color */
+}
+
+.badge-Flutter {
+  background-color: #02569B !important; /* Flutter official color */
+}
+
+.badge-Supabase {
+  background-color: #3ECF8E !important; /* Supabase official color */
+}
+
+.badge-MonoGame {
+  background-color: #E73C00 !important; /* MonoGame color */
+}
+
+.badge-CSharp {
+  background-color: #239120 !important; /* C# official color */
+}
 
 .fade-in {
   animation: fadeIn 1s ease-out forwards;

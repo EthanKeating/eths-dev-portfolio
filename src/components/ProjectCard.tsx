@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import { FaInfoCircle, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import TechnologyBadge from "./TechnologyBadge";
 
 interface ProjectCardProps {
@@ -75,52 +75,28 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             ))}
           </div>
 
-          <div style={{ display: "flex", gap: "10px" }}>
-            <Button
-              variant="none"
-              style={{
-                flex: 1,
-                borderRadius: "5px",
-                fontWeight: "bold",
-                background:
-                  "linear-gradient(90deg, #00b894, rgb(49, 214, 181))", // Gradient background
-                color: "white",
-                padding: "10px",
-                textTransform: "uppercase",
-                fontSize: "16px",
-                border: "none",
-                transition: "all 0.3s ease",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-              className="custom-button"
-            >
-              <FaInfoCircle style={{ marginRight: "8px" }} /> More Info
-            </Button>
-            <Button
-              variant="none"
-              style={{
-                flex: 1,
-                borderRadius: "5px",
-                fontWeight: "bold",
-                background: "#d1d1d1",
-                color: "black",
-                padding: "10px",
-                textTransform: "uppercase",
-                fontSize: "16px",
-                border: "none",
-                transition: "all 0.3s ease",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-              className="custom-button"
-              onClick={() => window.open(githubUrl, "_blank")}
-            >
-              <FaGithub style={{ marginRight: "8px" }} /> GitHub
-            </Button>
-          </div>
+          <Button
+            variant="none"
+            style={{
+              width: "100%",
+              borderRadius: "5px",
+              fontWeight: "bold",
+              background: "linear-gradient(90deg, #00b894, rgb(49, 214, 181))",
+              color: "white",
+              padding: "10px",
+              textTransform: "uppercase",
+              fontSize: "16px",
+              border: "none",
+              transition: "all 0.3s ease",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="custom-button"
+            onClick={() => window.open(githubUrl, "_blank")}
+          >
+            <FaGithub style={{ marginRight: "8px" }} /> View Project
+          </Button>
         </Card.Body>
       </Card>
     </div>
